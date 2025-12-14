@@ -1,0 +1,77 @@
+/* .All{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #fff;
+    max-width: 90%;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body{
+    /* background-image: url("Roi.jpg"); */
+    /* height: 100vh; */
+body {
+    background-image: url("Roi.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    /* height: 100vh; */
+}
+
+.container {
+    background: white;
+    max-width: 60%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 17rem;
+    padding-top: 1.5rem;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 0.1rem;
+    margin-bottom: 4rem;
+}
+
+h2 {
+    font-size: 5.5rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+button {
+    border: none;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 40rem;
+    height: 5rem;
+    margin-bottom: 0.2rem;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+}
+
+#increment-btn {
+    background: rgb(32, 31, 31);
+}
+
+#save-btn {
+    background: rgb(21, 105, 21);
+    margin-top: 5px;
+}
+
+#save_el{
+    font-size: 2rem;
+    padding: 2rem;
+    font-weight: 800;
+}
+
